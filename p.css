@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bloarw:wght@300&display=swap');
+*{
+margin:0;
+}
+body{
+    font-family:'Bloarw';
+}
+.container{
+    width:1200px;
+    margin:auto;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+.leftcol{
+    width:25%;
+}
+.rightcol{
+    width:75%;
+}
+ul{
+    list-style:none;
+}
+.product{
+    width:25%;
+    padding-left:15px;
+    padding-right:15px;
+    text-align:center;
+    box-sizing:border-box;
+}
+.img-fluid{
+    width:100%;
+    height:auto;
+}
+.product h2,.product p{
+    padding-top:7px;
+    padding-bottom:7px;
+}
+
+@media only screen and (max-width:600px){
+    
+    .container{
+        width:100%;
+        
+    }
+    .leftcol{
+        width:100%;
+    }
+    .rightcol{
+        width:100%;
+    }
+    .product{
+        width:50%;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:900px){
+    .container{
+        width:90%;
+        
+    }
+    .leftcol{
+        width:40%;
+    }
+    .rightcol{
+        width:60%;
+    }
+    .product{
+        width:33.3333%;
+    }
+
+}

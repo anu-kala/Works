@@ -1,0 +1,66 @@
+.container{
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+}
+.row{
+    display:flex;
+}
+.col-3{
+  width:25%;
+  overflow-y: scroll;
+  padding:40px;
+  font-size:10px;
+}
+
+.col-9{
+    width:75%;
+    
+}
+.container1{
+    border:2px solid #ccc; 
+    width:300px;
+     height: 100px;
+      overflow-y: scroll;
+      width:200px;
+      border:none;
+      height:300px;
+}
+.text{
+    width:95%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-size: 16px;
+    font-family:  'Roboto',times;
+}
+.container2{
+       
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+figure{
+    margin:0;
+}
+.product{
+    width: 23%;
+    text-align: center;
+    margin:15px;
+    
+}
+.img{
+    border-radius: 10px;
+    height:300px;
+}
+.img:hover{
+    transform: scale(1.01);
+}
+.checkbox{
+    font-size:10px;
+}
+
